@@ -1,0 +1,10 @@
+﻿#content{
+	position:absolute;
+	width:0px;
+	height:0px;
+	border:20px solid red;
+	top:100px;
+	left:500px;
+}
+
+
