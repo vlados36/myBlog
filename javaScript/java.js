@@ -365,20 +365,6 @@ alert(day);
 
 //   методы  charAt() и charCodeAt(). позволяет узнать символ по индексу и пзволяет узнать код символа
 
-var students = ["Илья","Greg","Алина"];
-
-for(var i = 0; i<students.length; i++){
-	
-			for(var j = 0; j < students[i].length; j++ ){
-				if(students[i].charCodeAt(j) < 1040 || (students[i].charCodeAt(j)) > 1113)
-				{
-				document.write("Введен текст английскими буквами имено " + students[i].charAt(j));
-				}
-			}
-}
-	
-
-
 
 
 
