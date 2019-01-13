@@ -1,2 +1,16 @@
-﻿
+﻿body{
+	background:white;
+}
 
+
+
+#header{
+	color:red;
+}
+.new{
+	color:blue;
+}
+
+#myList,h3{
+	color:green;
+}
