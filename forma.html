@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> forma </title>
+</head>
+<body>
+
+<form action="formdata.php" method="POST" name="form1" >
+<fieldset>
+<legend>Ввод личных данных</legend>
+<p><label>Введите ваше имя: <input type="text" name="name" size="35" maxlength="10"></label></p>
+<p><label>Введите ваш пороль: <input type="password" name="name" size="35" maxlength="10"></label></p>
+</fieldset>
+
+<fieldset>
+<legend>Вопросы</legend>
+<p> любишь экономить время?? <label>да<input type="radio" name="time" value="yes" checked></label> <label>нет<input type="radio" name="time" value="no"></label> </p>
+
+<p>какими инструментами пользуетсь?</p>
+<p><label><input type="checkbox" name="ezed" disabled>Ежедневник</p>
+<p><label><input type="checkbox" name="hr">хронометр</p>
+<p><label><input type="checkbox" name="sv">Свои нароботки</p>
+
+<p><label for="sele">Сколько часов вы спите?</label></p>
+<p>
+<select name="sleep" size="3" multiple  id="sele"> 
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option selected value="8">8</option>
+	<option value="9">9+</option>
+</select>
+</p>
+</fieldset>
+<fieldset>
+<legend>Коментарии</legend>
+<p><label for="text">Поделитесь своими наработками по экономии времени</label></p>
+<textarea cols="50" rows="6" id="text" readonly>Текст...</textarea>
+<p><input type="reset" name="reset" value="сброс"><input type="submit" name="submit" value="отправить"></p>
+
+<p><input type="image" src="images/butssend03.png"></p>
+<p><input type="button" value="кнопка" name="button"></p>
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
