@@ -1,50 +1,62 @@
 ﻿
 #obertka{
+	position:absolute;
 	height:1500px;
-	margin:10px auto 5px;
+	width:100%;
 	border:1px solid black;
 	top:10px;
+	left:0px
 	
 }
 
 #header{
+	position:absolute;
 	height:100px;
-	margin:0px auto;
+	width:100%;
 	border:1px solid black;
-	
 }
 
+
+
 #obertkaBar{
-	border:1px solid black;
-	width:200px;
-	height:500px;
-	margin:40px;
-	float:right;
+	position:absolute;
+	border:3px solid black;
+	width:30%;
+	top:140px;
+	right:40px;
 	
 }
 #bar{
 	border:1px solid black;
-	width:100px;
-	height:100px;
+	width:80%;
+	height:400px;
 	margin:10px auto;
-	
-	
-}
-
-#content{
-	border:1px solid black;
-	width:900px;
-	height:700px;
-	float:left;
-	margin:40px;
 }
 
 #chat{
-border:1px solid black;
-	width:100px;
-	height:100px;
-	margin:20px auto;
+	border:1px solid red;
+	width:80%;
+	height:400px;
+	margin:10px auto;
 }
 
+
+#content{
+	position:absolute;
+	border:1px solid black;
+	width:60%;
+	height:80%;
+	top:140px;
+	left:40px;
+}
+
+
+
+
 #footer{
+	border:2px solid black;
+	position:absolute;
+	bottom:0px;
+	height:70px;
+	width:100%;
 }
