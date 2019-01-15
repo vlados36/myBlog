@@ -1,13 +1,16 @@
 .but{
 	position:relative;
-	color:red;
-	border:1px solid black;
-	margin:80px;
-	top:40px;
+	color:white;
+	margin:40px;
+	top:28px;
+	font-size:22px;
+	font-family:sans-serif;
 	
-	
-	
-	
-	
+}
+
+#haudiho{
+	padding:5px 20px 5px 20px;
+	border:3px solid #FFA500;
+	color:#FFA500;
 	
 }
