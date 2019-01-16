@@ -1,5 +1,5 @@
-document.getElementById('kb').onclick = sliderBottom;
-
+document.getElementById('kb').onmouseover = sliderBottom;
+document.getElementById('kb').onmouseout = sliderreturn;
 
 
 function sliderBottom (){
@@ -18,4 +18,19 @@ function sliderBottom (){
 	kurs.style.top = 260+"px";
 	varibls.style.top = 300+"px";
 	Other.style.top = 340+"px";
+	
+}
+
+
+function sliderreturn(){
+	
+	
+	prog.style.top = 50+"px";
+	soft.style.top = 90+"px";
+	dip.style.top = 130+"px";
+	books.style.top = 170+"px";
+	kurs.style.top = 210+"px";
+	varibls.style.top = 250+"px";
+	Other.style.top = 290+"px";
+	
 }

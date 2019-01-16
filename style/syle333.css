@@ -13,6 +13,7 @@
 	height:200px;
 	border:1px solid green;
 	left:50px;
+	transition: all ease 1s;
 	
 	
 }
