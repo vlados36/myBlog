@@ -7,12 +7,12 @@
 
 	
 }
-.pup{
+.pup {
+	
 	position:relative;
-	border:2px solid black;
-	width:200px;
-	height:40px;
-	left:50px;
+	width:245px;
+	height:55px;
+	left:25px;
 	top:50px;
 	display:block;
 	float:left;
@@ -20,10 +20,13 @@
 	background-color:#222629;
 	font-size:22px;
 	color:white;
+	cursor: pointer;
+	
 }
 .text{
+	position:relative;
+	color:white;
+	font-size:18px;
+	left:45px;
 	
-	color:green;
-	font-size:20px;
-
 }
